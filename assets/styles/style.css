@@ -1,0 +1,199 @@
+html {
+  Sfont-size: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+section, footer {
+  margin-top: 4.6875rem;
+}
+
+footer {
+  padding: 3.125rem;
+}
+
+.oscuro{
+  background: #000f08;
+  color: #ffffff;
+  padding: 1.5rem;
+}
+/*
+* NAV
+*/
+
+.oscuro ul li{
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+/*
+* HERO SECTION
+*/
+
+.hero-section {
+  text-align: right;
+  background-image: url("../images/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0rem 0.1875rem 0.375rem #00000080;
+  padding: 6.25rem 3.125rem;
+}
+
+.hero-section__subtitulo {
+    font-weight: 400;
+}
+
+/*
+* UBICACIÓN
+*/
+
+.ubicacion {
+  display: block;
+  text-align: center;
+}
+/*
+ * PROXIMA CHARLA
+ */
+
+.proxima-charla {
+  align-items: flex-start;
+  background-color: #a4452c;
+  color: #FFFFFF;
+  display: flex;
+  padding: 6.5rem 32.0625rem;
+}
+
+.proxima-charla__speaker {
+  width: 311px;
+}
+
+.proxima-charla__info {
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.proxima-charla__title {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.proxima-charla__subtitle {
+  margin: 0;
+  margin-bottom: 0.5rem
+}
+
+.proxima-charla__speaker-name {
+  margin: 0;
+}
+
+.proxima-charla__speaker-description {
+  margin: 0;
+  margin-bottom: 0.5rem
+}
+
+.proxima-charla__description {
+  margin: 0;
+  margin-bottom: 0.5rem
+
+}
+
+/*
+ * EVENTOS ANTERIORS
+ */
+
+.eventos-anteriores {
+  padding: 0 193px;
+  text-align: center;
+}
+.eventos-anteriores__eventos {
+  display: flex; 
+  justify-content: space-between;
+}
+.eventos-anteriores__eventos .evento {
+  width: 415px;
+  text-decoration: none;
+}
+.evento__imagen {
+  width: 100%;
+}
+.evento a {
+  text-decoration: none;
+}
+.evento a:visited {
+  color: #000f08;
+}
+/*
+* Footer
+*/
+
+.footer {
+  text-align: center;
+}
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5625rem;
+}
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+/*
+* BLOGS
+*/
+
+.blog {
+  display: block;
+  margin: 0 25%;
+  padding-top:6.5rem;
+}
+.blog img {
+  width: 100%;
+}
